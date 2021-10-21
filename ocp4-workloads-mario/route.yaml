@@ -2,7 +2,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: infinite-mario
-  namespace: infinite-mario
 spec:
   to:
     kind: Service

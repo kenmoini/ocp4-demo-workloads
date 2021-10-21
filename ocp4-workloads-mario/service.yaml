@@ -2,7 +2,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: infinite-mario
-  namespace: infinite-mario
   labels:
     app: infinite-mario
     app.kubernetes.io/component: infinite-mario
